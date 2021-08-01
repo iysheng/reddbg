@@ -133,6 +133,23 @@ P 176 0 0 5 108 -75 107 -74 103 -66 101 -63 98 -59 96 -54 69 -9 67 -5 64 -2 63 2
 ENDDRAW
 ENDDEF
 #
+# Graphic_SYM_Magnet_Small
+#
+DEF Graphic_SYM_Magnet_Small #SYM 0 40 Y N 1 F N
+F0 "#SYM" 0 140 50 H I C CNN
+F1 "Graphic_SYM_Magnet_Small" 0 -125 50 H I C CNN
+F2 "" 0 -175 50 H I C CNN
+F3 "" 30 -200 50 H I C CNN
+DRAW
+A 0 -27 25 -1799 -1 0 1 30 N -25 -27 25 -27
+S -37 -28 -13 -3 0 1 0 F
+S -37 -9 -13 16 0 1 0 f
+S 13 -28 37 -3 0 1 0 F
+S 13 -9 37 16 0 1 0 f
+P 4 0 1 10 -100 -75 100 -75 0 100 -100 -75 f
+ENDDRAW
+ENDDEF
+#
 # Interface_UART_MAX232
 #
 DEF Interface_UART_MAX232 U 0 40 Y Y 1 F N

@@ -30,7 +30,7 @@ U 1 1 60C8F8B8
 P 4270 2640
 F 0 "C1" H 4385 2686 50  0000 L CNN
 F 1 "0.1u" H 4385 2595 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4308 2490 50  0001 C CNN
+F 2 "Red_Pro:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4308 2490 50  0001 C CNN
 F 3 "~" H 4270 2640 50  0001 C CNN
 	1    4270 2640
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 60C8FD97
 P 6460 2640
 F 0 "C3" H 6490 2730 50  0000 L CNN
 F 1 "0.1u" H 6600 2730 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6498 2490 50  0001 C CNN
+F 2 "Red_Pro:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6498 2490 50  0001 C CNN
 F 3 "~" H 6460 2640 50  0001 C CNN
 	1    6460 2640
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 60C90930
 P 6580 2990
 F 0 "C4" V 6328 2990 50  0000 C CNN
 F 1 "0.1u" V 6419 2990 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6618 2840 50  0001 C CNN
+F 2 "Red_Pro:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6618 2840 50  0001 C CNN
 F 3 "~" H 6580 2990 50  0001 C CNN
 	1    6580 2990
 	0    1    1    0   
@@ -81,7 +81,7 @@ U 1 1 60C9A45B
 P 6580 3290
 F 0 "C5" V 6530 3190 50  0000 C CNN
 F 1 "0.1u" V 6530 3420 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6618 3140 50  0001 C CNN
+F 2 "Red_Pro:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6618 3140 50  0001 C CNN
 F 3 "~" H 6580 3290 50  0001 C CNN
 	1    6580 3290
 	0    1    1    0   
@@ -107,7 +107,7 @@ U 1 1 60C9DCB2
 P 5000 2060
 F 0 "C2" H 5030 2150 50  0000 L CNN
 F 1 "0.1u" H 5140 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5038 1910 50  0001 C CNN
+F 2 "Red_Pro:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5038 1910 50  0001 C CNN
 F 3 "~" H 5000 2060 50  0001 C CNN
 	1    5000 2060
 	0    1    1    0   
@@ -161,7 +161,7 @@ U 1 1 60CA346A
 P 7640 3860
 F 0 "J3" H 7820 3906 50  0000 L CNN
 F 1 "DB9_Female" H 7820 3815 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 7640 3860 50  0001 C CNN
+F 2 "Red_Pro:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 7640 3860 50  0001 C CNN
 F 3 " ~" H 7640 3860 50  0001 C CNN
 	1    7640 3860
 	1    0    0    -1  
@@ -366,4 +366,15 @@ $EndComp
 Connection ~ 2590 3470
 Wire Wire Line
 	2590 3470 2500 3470
+$Comp
+L Graphic:SYM_Magnet_Small SYM2
+U 1 1 60CA01CE
+P 7320 3040
+F 0 "SYM2" H 7320 3180 50  0001 C CNN
+F 1 "SYM_Magnet_Small" H 7320 2915 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 7320 2865 50  0001 C CNN
+F 3 "~" H 7350 2840 50  0001 C CNN
+	1    7320 3040
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
